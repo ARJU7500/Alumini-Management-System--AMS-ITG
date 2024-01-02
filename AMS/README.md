@@ -3,8 +3,6 @@ this portal used for store the data of alumini student in systematically where w
 
 ###### institute of technology gopeshwar, chamoli, uttarakhand, india
 # Project Title: Aluminium Management System
-front-end: Arjun Negi, Priyanshu Bhatt, Naveen singh rawat
-Back-end: Neeraj Bisht 
 
 
 
