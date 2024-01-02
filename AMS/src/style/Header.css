@@ -1,0 +1,13 @@
+.head
+{
+    border:1px solid red;
+    height:90px;
+    position:sticky;
+    top:0;
+    z-index:99;
+    padding:0px 0px 0px 100px;
+}
+.ams_logo img
+{
+    height:80px;
+}

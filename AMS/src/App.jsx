@@ -1,8 +1,11 @@
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+
 function App() {
     return (
     <>
-      <h1>Welcome To Alumini Management System(AMS)</h1>
-      <p>institute of technology gopeshwar, chamoli, uttarakhand, india</p>
+    <Header />
+    <Footer />
     </>
   )
 }
