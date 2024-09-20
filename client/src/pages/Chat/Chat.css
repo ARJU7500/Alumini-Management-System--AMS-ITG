@@ -1,0 +1,251 @@
+.back
+{
+    width:100%;
+    background-color:#2ED68A;
+    height:180px;
+}
+.head
+{
+    display:grid;
+    grid-template-columns:5rem 1fr 2fr 5rem;
+
+}
+/* chatbox */
+.box
+{
+    border:2px solid #00203F;
+    width:100%;
+    height:80vh;
+    margin-top:30px;
+    grid-column:2/4;
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    background-color:#FFFFFF;
+    border-radius:10px;
+
+}
+.contact{
+    grid-column:1/2;
+    border:2px solid #00203F;
+    border-top:none;
+    border-bottom:none;
+    border-left:none;
+    width:100%;
+}
+.contact-head
+{
+    display:grid;
+    grid-template-columns:0.5rem 1fr 2rem 2rem 0.5rem;
+    width:100%;
+    height:70px;
+    padding-top:20px;
+    background-color:#F0F2F5;
+    border-bottom:1px solid #617ca3;
+    border-radius:10px 0px 0px 0px;
+}
+.contact-head a
+{
+    text-decoration:none;
+}
+.mgs
+{
+    grid-column:2/3;
+}
+.grp
+{
+    grid-column:3/4;
+    margin-top:10px;
+}
+.dot
+{
+    grid-column:4/6;
+    margin-top:10px;
+}
+.chat{
+    grid-column:2/3;
+    width:100%;
+}
+.chat-head
+{
+    display:grid;
+    grid-template-columns:0.5rem 4.5rem 1fr 3rem 3rem 3rem 0.5rem;
+    width:100%;
+    height:70px;
+    border-radius:0px 10px 0px 0px;
+    padding-top:5px;
+    background-color:#F0F2F5;
+    border-bottom:1px solid #617ca3;
+}
+.chat-head a
+{
+    text-decoration:none;
+    cursor:pointer;
+}
+.usrimage
+{
+    grid-column:2/3;
+}
+.usrname
+{
+    grid-column:3/4;
+    margin-top:10px;
+}
+.call
+{
+    grid-column:4/5;
+    margin-top:10px;
+}
+.vdcall
+{
+    grid-column:5/6;
+    margin-top:10px;
+}
+.dot
+{
+    grid-column:6/7;
+}
+/* user  chat contact */
+.contact-con
+{
+    overflow-y:scroll;
+    height:498px;
+    position:sticky;
+    top:70px;
+}
+::-webkit-scrollbar
+{
+    width:5px;
+}
+::-webkit-scrollbar-track
+{
+    background-color:#2ED68A;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color:#00203F;
+}
+.uchat
+{
+    display:grid;
+    grid-template-columns:0.5rem 4.5rem 3fr 0.5rem;
+    border-bottom:1px solid #617ca3;
+    padding:5px 0px 5px 0px;
+}
+.usrimage
+{
+    grid-column:2/3;
+}
+.uinfo
+{
+    grid-column:3/4;
+}
+.uchat:hover
+{
+background-color:#F0F2F5;
+}
+
+/* chat input */
+.chat
+{
+    position:relative;
+}
+.chat-input
+{
+    width:100%;
+    height:70px;
+    padding-top:5px;
+    background-color:#F0F2F5;
+    /* margin-top:427px; */
+    position:absolute;
+    bottom:0px;
+    border-radius:0px 0px 10px 0px;
+}
+.chat-input
+{
+    display:grid;
+    grid-template-columns:0.5rem 3rem 3rem 1fr 3rem 0.5rem;
+    text-align:center;
+    line-height:70px;
+}
+input
+{
+    width:100%;
+    height:40px;
+    outerline:none;
+    border-radius:20px;
+    padding:10px;
+    font-size:20px;
+    margin-top:10px;
+}
+input::placeholder
+{
+    font-size:20px;
+    color:black;
+    padding:10px;
+}
+.emoji
+{
+    grid-column:2/3;
+}
+.doc
+{
+    grid-column:3/4;
+}
+.ip
+{
+    grid-column:4/5;
+}
+.audio
+{
+    grid-column:5/6;
+}
+/* message */
+.chatmgs
+{
+    display:grid;
+    grid-template-columns:0.5rem  1fr 1fr 0.5rem;
+    padding-top:5px;
+    overflow-y:scroll;
+    height:450px;
+    position:sticky;
+    top:70px;
+}
+::-webkit-scrollbar
+{
+    width:5px;
+}
+::-webkit-scrollbar-track
+{
+    background-color:#2ED68A;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color:#00203F;
+}
+.me
+{
+    grid-column:2/3;
+    width:80%;
+}
+.me p{
+    color:white;
+    background-color:#2ED68A;
+    padding:10px 15px 10px 15px;
+    border-radius:20px;
+    margin:10px 0px 50px 0px;
+
+}
+.frnd
+{
+    grid-column:3/4;
+    width:80%;
+    margin-left:20%;
+}
+.frnd p{
+    color:white;
+    background-color:#00203F;
+    padding:10px 15px 10px 15px;
+    border-radius:20px;
+    margin:50px 0px 40px 0px;
+}
+
